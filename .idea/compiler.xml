@@ -9,6 +9,8 @@
         <module name="Pizza-Orders-Selenium-Tests" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel target="8" />
+    <bytecodeTargetLevel>
+      <module name="Pizza-Orders-Selenium-Tests" target="1.5" />
+    </bytecodeTargetLevel>
   </component>
 </project>

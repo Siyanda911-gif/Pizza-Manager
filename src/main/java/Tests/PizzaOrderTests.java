@@ -32,7 +32,7 @@ public class PizzaOrderTests extends Pizza_Report {
     public PizzaOrderTests() throws IOException, InterruptedException {
     }
 
-    @Test(description = "This Test Will Calculate Premium For All Users In Excel SpreadSheet")
+    @Test(description = "This Test Will order a Pizza online and complete it")
     public void Order_Pizza_Online() throws InterruptedException {
         for (int i = 1; i <= data_Length; i++) {
 
